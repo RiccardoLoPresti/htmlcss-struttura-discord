@@ -15,6 +15,7 @@ body{
   margin: 0 auto;
   border: 1px solid black;
   height: 680px; /*DA TOGLIERE*/
+  padding: 20px;
 }
 
 .header{ /*DA TOGLIERE*/
@@ -76,24 +77,92 @@ main section.jumbotron p{
   color: #ffffff;
 }
 
+/* WHITE ROW */
 main .white-row{
   height: 680px; /*DA TOGLIERE*/
   background-color: #ffffff;
   border: 1px solid black;
 }
 
+main .white{
+  display: flex;
+  align-items: flex-start;
+}
+
+main .left-col-white{
+  display: flex;
+  flex-basis: 70%;
+}
+
+main img{
+  background-color: aqua; /*DA TOGLIERE*/
+  width: 100%; /*DA TOGLIERE*/
+  height: 400px;
+}
+
+main .rigth-col-white{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  margin-left: 100px;
+}
+/* WHITE ROW */
+
+/* GREY ROW */
 main .grey-row{
   height: 680px; /*DA TOGLIERE*/
   background-color: grey;
   border: 1px solid black;
 }
 
+main .grey{
+  display: flex;
+  align-items: flex-start;
+}
+
+main .left-col-grey{
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+}
+
+main .rigth-col-grey{
+  display: flex;
+  flex-basis: 70%;
+  margin-left: 100px;
+}
+/* GREY ROW */
+
+main .last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 footer{
   background-color: rgb(19, 19, 19);
+  color: #ffffff;
 }
 
 footer .top{
   height: 500px; /*DA TOGLIERE*/
+  display: flex;
+}
+
+footer .top .footer-col{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .top .footer-col ul{
+  list-style: none;
+}
+
+footer .top .footer-col ul li a{
+  text-decoration: none;
+  color: #ffffff;
 }
 
 footer .bottom{
