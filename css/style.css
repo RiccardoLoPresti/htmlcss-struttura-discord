@@ -1,0 +1,98 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+  max-width: 1180px;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 680px; /*DA TOGLIERE*/
+}
+
+.container-header{
+  max-width: 1180px;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100px; /*DA TOGLIERE*/
+}
+
+/* HEADER */
+header{
+  height: 100px;
+  background-color: #404eed;
+  border: 1px solid black;
+  color: #ffffff;
+}
+
+header .wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  margin-left: 10px;
+}
+
+header .log-in{
+  margin-right: 10px;
+}
+
+/* NAV */
+nav.menu ul{
+  display: flex;
+  gap: 40px;
+}
+
+nav.menu ul li{
+  list-style: none;
+}
+
+nav.menu ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main .jumbotron{
+  height: 600px; /*DA TOGLIERE*/
+  background-color: #404eed;
+  border: 1px solid black;
+}
+
+main .jumbotron h1,
+main .jumbotron p{
+  color: #ffffff;
+}
+
+main .white{
+  height: 680px; /*DA TOGLIERE*/
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+main .grey{
+  height: 680px; /*DA TOGLIERE*/
+  background-color: grey;
+  border: 1px solid black;
+}
+
+footer{
+  background-color: rgb(19, 19, 19);
+}
+
+footer .top{
+  height: 500px; /*DA TOGLIERE*/
+}
+
+footer .bottom{
+  height: 160px;
+}
