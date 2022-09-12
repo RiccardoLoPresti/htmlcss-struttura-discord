@@ -17,18 +17,21 @@ body{
   height: 680px; /*DA TOGLIERE*/
 }
 
-.container-header{
-  max-width: 1180px;
-  width: 70%;
-  margin: 0 auto;
-  border: 1px solid black;
+.header{ /*DA TOGLIERE*/
   height: 100px; /*DA TOGLIERE*/
+}
+
+.jumbo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* HEADER */
 header{
   height: 100px;
-  background-color: #404eed;
+  background-color: #3161e0;
   border: 1px solid black;
   color: #ffffff;
 }
@@ -62,24 +65,24 @@ nav.menu ul li a{
   text-decoration: none;
 }
 
-main .jumbotron{
+main section.jumbotron{
   height: 600px; /*DA TOGLIERE*/
-  background-color: #404eed;
+  background-color: #3161e0;
   border: 1px solid black;
 }
 
-main .jumbotron h1,
-main .jumbotron p{
+main section.jumbotron h1,
+main section.jumbotron p{
   color: #ffffff;
 }
 
-main .white{
+main .white-row{
   height: 680px; /*DA TOGLIERE*/
   background-color: #ffffff;
   border: 1px solid black;
 }
 
-main .grey{
+main .grey-row{
   height: 680px; /*DA TOGLIERE*/
   background-color: grey;
   border: 1px solid black;
