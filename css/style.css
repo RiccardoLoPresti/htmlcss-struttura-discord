@@ -18,7 +18,7 @@ h3{
   max-width: 1180px;
   width: 70%;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid black;/*DA TOGLIERE*/
   height: 680px; /*DA TOGLIERE*/
   padding: 20px;
 }
@@ -32,14 +32,14 @@ h3{
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 230px;
+  padding-top: 230px;/*DA TOGLIERE*/
 }
 
 /* HEADER */
 header{
   height: 100px;
   background-color: #3161e0;
-  border: 1px solid black;
+  border: 1px solid black;/*DA TOGLIERE*/
   color: #ffffff;
 }
 
@@ -76,7 +76,7 @@ nav.menu ul li a{
 main section.jumbotron{
   height: 600px; /*DA TOGLIERE*/
   background-color: #3161e0;
-  border: 1px solid black;
+  border: 1px solid black;/*DA TOGLIERE*/
 }
 
 main section.jumbotron h1,
@@ -89,7 +89,7 @@ main section.jumbotron p{
 main .white-row{
   height: 680px; /*DA TOGLIERE*/
   background-color: #ffffff;
-  border: 1px solid black;
+  border: 1px solid black;/*DA TOGLIERE*/
 }
 
 main .white{
@@ -105,7 +105,7 @@ main .left-col-white{
 main img{
   background-color: aqua; /*DA TOGLIERE*/
   width: 100%; /*DA TOGLIERE*/
-  height: 400px;
+  height: 400px;/*DA TOGLIERE*/
 }
 
 main .rigth-col-white{
@@ -119,8 +119,8 @@ main .rigth-col-white{
 /* GREY ROW */
 main .grey-row{
   height: 650px; /*DA TOGLIERE*/
-  background-color: grey;
-  border: 1px solid black;
+  background-color: grey;/*DA CAMBIARE*/
+  border: 1px solid black;/*DA TOGLIERE*/
 }
 
 main .grey{
@@ -150,7 +150,7 @@ main .last{
 
 /* FOOTER */
 footer{
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(19, 19, 19);/*DA CAMBIARE*/
   color: #ffffff;
 }
 
@@ -183,8 +183,8 @@ footer .top .footer-col ul li a{
 
 /* FOOTER BOTTOM */
 footer .bottom{
-  height: 80px;
-  border-top: 1px  solid lightblue;
+  height: 80px;/*DA CAMBIARE*/
+  border-top: 1px  solid lightblue;/*DA CAMBIARE*/
   padding-top: 20px;
 }
 
